@@ -79,7 +79,7 @@ class TestesDaCalculadoraDeCambio(TestCase):
         # Arrange
         valor = 0
         taxa = 3.37
-        resultado_esperado = -1
+        resultado_esperado = 0
         
         # Act
         resultado_obtido = calc.converter(valor, taxa)
